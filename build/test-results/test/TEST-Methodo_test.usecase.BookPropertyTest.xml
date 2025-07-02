@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Methodo_test.usecase.BookPropertyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T12:53:32.614Z" hostname="MacBook-Air-de-jimmy-8.local" time="0.411">
+  <properties/>
+  <testcase name="retrieved list should contain all stored books" classname="Methodo_test.usecase.BookPropertyTest" time="0.411"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/sprumontjimmy/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.6/17b32fd9f57deef02842f7f05abc4ad8127fe34e/byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

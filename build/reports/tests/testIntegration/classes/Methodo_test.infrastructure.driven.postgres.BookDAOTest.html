@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BookDAOTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BookDAOTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/Methodo_test.infrastructure.driven.postgres.html">Methodo_test.infrastructure.driven.postgres</a> &gt; BookDAOTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.542s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">should save and retrieve books()</td>
+<td class="success">0.542s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:53:21.272 [Test worker] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
+14:53:21.277 [Test worker] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14:53:21.478 [Test worker] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14:53:21.687 [Test worker] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+14:53:21.688 [Test worker] INFO org.testcontainers.DockerClientFactory -- Docker host IP address is localhost
+14:53:21.702 [Test worker] INFO org.testcontainers.DockerClientFactory -- Connected to docker: 
+  Server Version: 28.0.4
+  API Version: 1.48
+  Operating System: Docker Desktop
+  Total Memory: 3919 MB
+14:53:21.721 [Test worker] INFO tc.testcontainers/ryuk:0.5.1 -- Creating container for image: testcontainers/ryuk:0.5.1
+14:53:21.894 [Test worker] INFO org.testcontainers.utility.RegistryAuthLocator -- Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+14:53:21.984 [Test worker] INFO tc.testcontainers/ryuk:0.5.1 -- Container testcontainers/ryuk:0.5.1 is starting: b131f43f83dce94a725e7cfb3e945a1b5eef92b2f6d3461cff2648abcea5e4c3
+14:53:22.206 [Test worker] INFO tc.testcontainers/ryuk:0.5.1 -- Container testcontainers/ryuk:0.5.1 started in PT0.484445S
+14:53:22.211 [Test worker] INFO org.testcontainers.utility.RyukResourceReaper -- Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14:53:22.211 [Test worker] INFO org.testcontainers.DockerClientFactory -- Checking the system...
+14:53:22.212 [Test worker] INFO org.testcontainers.DockerClientFactory -- ✔︎ Docker server version should be at least 1.6.0
+14:53:22.212 [Test worker] INFO tc.postgres:17 -- Creating container for image: postgres:17
+14:53:22.237 [Test worker] INFO tc.postgres:17 -- Container postgres:17 is starting: d97f945170b384789adc83e362ed295472eab2f1f578f49f1578e16d822dda8b
+14:53:23.078 [Test worker] INFO tc.postgres:17 -- Container postgres:17 started in PT0.865962S
+14:53:23.080 [Test worker] INFO tc.postgres:17 -- Container is started (JDBC URL: jdbc:postgresql://localhost:64225/booksdb?loggerLevel=OFF)
+14:53:23.180 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [Methodo_test.infrastructure.driven.postgres.BookDAOTest]: BookDAOTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:53:23.477 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration Methodo_test.MethodoTestApplication for test class Methodo_test.infrastructure.driven.postgres.BookDAOTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-02T14:53:23.812+02:00  INFO 25054 --- [Methodo_test] [    Test worker] M.i.driven.postgres.BookDAOTest          : Starting BookDAOTest using Java 21.0.7 with PID 25054 (started by sprumontjimmy in /Users/sprumontjimmy/Mes documents/Data_scientist/Test unitaire/TP_gestion_de_livre_github)
+2025-07-02T14:53:23.813+02:00  INFO 25054 --- [Methodo_test] [    Test worker] M.i.driven.postgres.BookDAOTest          : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-02T14:53:24.463+02:00  INFO 25054 --- [Methodo_test] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02T14:53:24.615+02:00  INFO 25054 --- [Methodo_test] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70fd626f
+2025-07-02T14:53:24.616+02:00  INFO 25054 --- [Methodo_test] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02T14:53:24.752+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.database                       : Set default schema name to public
+2025-07-02T14:53:24.943+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2025-07-02T14:53:24.968+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2025-07-02T14:53:24.985+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.snapshot                       : Creating snapshot
+2025-07-02T14:53:25.050+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.lockservice                    : Successfully acquired change log lock
+2025-07-02T14:53:25.051+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.command                        : Using deploymentId: 1460804449
+2025-07-02T14:53:25.053+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2025-07-02T14:53:25.061+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.ui                             : Running Changeset: db/changelogs/db.changelog-create-books.yaml::1::you
+2025-07-02T14:53:25.066+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.changelog                      : Table books created
+2025-07-02T14:53:25.067+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.changelog                      : ChangeSet db/changelogs/db.changelog-create-books.yaml::1::you ran successfully in 5ms
+2025-07-02T14:53:25.076+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : UPDATE SUMMARY
+2025-07-02T14:53:25.076+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : Run:                          1
+2025-07-02T14:53:25.077+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : Previously run:               0
+2025-07-02T14:53:25.077+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : Filtered out:                 0
+2025-07-02T14:53:25.077+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : -------------------------------
+2025-07-02T14:53:25.077+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : Total change sets:            1
+2025-07-02T14:53:25.077+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.util                           : Update summary generated
+2025-07-02T14:53:25.079+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.command                        : Update command completed successfully.
+2025-07-02T14:53:25.079+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.ui                             : Liquibase: Update has been successful. Rows affected: 1
+2025-07-02T14:53:25.083+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.lockservice                    : Successfully released change log lock
+2025-07-02T14:53:25.084+02:00  INFO 25054 --- [Methodo_test] [    Test worker] liquibase.command                        : Command execution complete
+2025-07-02T14:53:25.737+02:00  INFO 25054 --- [Methodo_test] [    Test worker] M.i.driven.postgres.BookDAOTest          : Started BookDAOTest in 2.145 seconds (process running for 8.178)
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/sprumontjimmy/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.6/17b32fd9f57deef02842f7f05abc4ad8127fe34e/byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.0.0-rc-1</a> at 2 juil. 2025, 14:53:28</p>
+</div>
+</div>
+</body>
+</html>

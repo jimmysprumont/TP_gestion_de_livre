@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Methodo_test.CypherStringTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-07-02T12:53:31.703Z" hostname="MacBook-Air-de-jimmy-8.local" time="0.162">
+  <properties/>
+  <testcase name="cipher('A', 2) should return 'C'" classname="Methodo_test.CypherStringTest" time="0.021"/>
+  <testcase name="cipher('A', 5) should return 'F'" classname="Methodo_test.CypherStringTest" time="0.0"/>
+  <testcase name="cipher('Z', 1) should wrap around to 'A'" classname="Methodo_test.CypherStringTest" time="0.001"/>
+  <testcase name="cipher('C', 28) should equal 'E' (cycle key &gt; 26)" classname="Methodo_test.CypherStringTest" time="0.0"/>
+  <testcase name="cipher with negative key should throw IllegalArgumentException" classname="Methodo_test.CypherStringTest" time="0.001"/>
+  <testcase name="cipher with non-uppercase char should throw IllegalArgumentException" classname="Methodo_test.CypherStringTest" time="0.001"/>
+  <testcase name="Test key 0 ne change pas la lettre" classname="Methodo_test.CypherStringTest" time="0.102"/>
+  <testcase name="Test sur le modulo" classname="Methodo_test.CypherStringTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
